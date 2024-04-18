@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   post "/sessions" => "sessions#create"
   get "/users" => "users#index"
   get "/users/:id" => "users#show"
+  post "/favorites" => "favorites#create"
   # Defines the root path route ("/")
   # root "posts#index"
 end
