@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   post "/favorites" => "favorites#create"
   delete "/favorites" => "favorites#destroy"
   get "/movies" => "movies#index"
+  get "/movies/:id" => "movies#show"
   # Defines the root path route ("/")
   # root "posts#index"
 end
