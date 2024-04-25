@@ -7,6 +7,11 @@ class FavoritesController < ApplicationController
     render :show
   end
 
+  def index
+    @favorites = Favorite.all
+    render :index
+  end
+
   def show
     @favorite = Favorite.find_by(id: params[:id])
     render :show
