@@ -3,6 +3,7 @@ class FavoritesController < ApplicationController
     @favorite = Favorite.create(
       user_id: params[:user_id],
       movie_id: params[:movie_id],
+      movie: params[:movie],
     )
     render :show
   end
