@@ -15,6 +15,7 @@ Rails.application.routes.draw do
   get "/movies" => "movies#index"
   get "/movies/:id" => "movies#show"
   patch "/movies/:id" => "movies#update"
+  get "/reviews" => "reviews#index"
   # Defines the root path route ("/")
   # root "posts#index"
 end
