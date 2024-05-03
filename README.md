@@ -1,25 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+CinemaScope - Movie review app
 
-Things you may want to cover:
+The main goal of CinemaScope is for users to be able to see recently released movies and leave reviews and pick their favorite movies.
 
-* Ruby version
+This app uses ruby on rails to create a backend for CinemaScope.
 
-* System dependencies
+- System dependencies
 
-* Configuration
+- Configuration
 
-* Database creation
+- Database creation
 
-* Database initialization
+- Database initialization
 
-* How to run the test suite
+- How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+- Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+- Deployment instructions
 
-* ...
+- ...
+
 # movies-capstone
